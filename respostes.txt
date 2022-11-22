@@ -7,3 +7,4 @@
 7) cat Alumnos.txt | grep -oh "González" | wc -w
 8) sed 's/Vicente/Pepe/' Alumnos.txt
 9) cat Alumnos.txt | awk '{if($4 >= 2010 && $4 <= 2019) print($1, $2, $3, $4, $5)}'
+10) cat Alumnos.txt | grep ^J | awk '{print $1" "$2}' | uniq
