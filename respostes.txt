@@ -5,3 +5,4 @@
 5) mv si.txt si/
 6) cat Alumnos.txt | grep -v ^NOM | awk '{print $1,$2"-"$5}'
 7) cat Alumnos.txt | grep -oh "González" | wc -w
+8) sed 's/Vicente/Pepe/' Alumnos.txt
